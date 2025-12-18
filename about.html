@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aya Codes - About</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- AOS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="output.css">
+   <script src="theme.js"></script>
+</head>
+<body class="bg-slate-50 dark:bg-gray-900 text-gray-900 dark:text-white font-poppins transition-colors duration-300">
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white dark:bg-gray-800 shadow-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-playfair font-bold text-pink-600 dark:text-pink-400">Aya Codes</h1>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-pink-500">Home</a></li>
+        <li><a href="about.html" class="text-pink-500 font-semibold">About</a></li>
+        <li><a href="skills.html" class="hover:text-pink-500">Skills</a></li>
+        <li><a href="projects.html" class="hover:text-pink-500">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-pink-500">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="text-2xl text-pink-600 dark:text-pink-400">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="min-h-screen flex items-center justify-center py-20">
+    <div class="container mx-auto px-4">
+      <h2 class="text-5xl font-playfair font-bold text-center text-pink-600 dark:text-pink-400 mb-12" data-aos="fade-up">
+        About Aya
+      </h2>
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <!-- Image -->
+        <div class="md:w-1/2" data-aos="zoom-in" data-aos-delay="200">
+          <img src="aya-about2.jpg" alt="Aya's Photo" class="rounded-full mx-auto shadow-lg w-64 h-64 md:w-80 md:h-80 object-cover photo-zoom">
+        </div>
+        <!-- Bio -->
+        <div class="md:w-1/2" data-aos="fade-up" data-aos-delay="400">
+          <p class="text-lg text-gray-700 dark:text-gray-200 mb-6">
+            Hey, I’m <span class="highlight-word" data-aos="fade-up" data-aos-delay="600">Aya</span>! I’m an 18-year-old first-year student pursuing a Diploma in Computer Networking. 
+            I’m obsessed with <span class="highlight-word" data-aos="fade-up" data-aos-delay="800">tech</span> and IT, diving headfirst into web development with HTML, CSS, and JavaScript. 
+            My <span class="highlight-word" data-aos="fade-up" data-aos-delay="1000">dream</span>? To become a trailblazer in the tech world, creating solutions that inspire and innovate.
+          </p>
+          <p class="text-lg text-gray-700 dark:text-gray-200 mb-6">
+            When I’m not <span class="highlight-word" data-aos="fade-up" data-aos-delay="1200">coding</span>, you’ll find me exploring the latest tech trends, tinkering with new ideas, 
+            or dreaming up my next big project. I’m passionate, driven, and ready to make my mark as Aya Codes!
+          </p>
+          <a href="contact.html" class="inline-block bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 pulse-button">
+            Let’s Connect
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 text-white text-center">
+    <p>© 2025 Aya Codes. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

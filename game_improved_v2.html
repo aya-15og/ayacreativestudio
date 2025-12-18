@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aya Codes - Home</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- AOS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <!-- Particles.js CDN -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="output.css">
+  <script src="theme.js"></script>
+</head>
+<body class="bg-pink-50 dark:bg-gray-900 text-gray-900 dark:text-white font-poppins transition-colors duration-300">
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white dark:bg-gray-800 shadow-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-playfair font-bold text-pink-600 dark:text-pink-400">Aya Codes</h1>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-pink-500 font-semibold">Home</a></li>
+        <li><a href="about.html" class="hover:text-pink-500">About</a></li>
+        <li><a href="skills.html" class="hover:text-pink-500">Skills</a></li>
+        <li><a href="projects.html" class="hover:text-pink-500">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-pink-500">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="text-2xl text-pink-600 dark:text-pink-400">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Particles -->
+  <section class="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <div id="particles-js" class="absolute inset-0"></div>
+    <div class="text-center relative z-10">
+      <h1 class="text-5xl md:text-7xl font-playfair font-bold text-pink-600 dark:text-pink-400 mb-4" data-aos="fade-up">
+        Welcome to Aya Codes
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-700 dark:text-gray-200 mb-6" data-aos="fade-up" data-aos-delay="200">
+        Crafting the Future of Tech with Passion
+      </p>
+      <a href="contact.html" class="bg-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600" data-aos="fade-up" data-aos-delay="400">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 text-white text-center">
+    <p>© 2025 Aya Codes. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

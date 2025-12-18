@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aya Codes - Projects</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-50 dark:bg-navy-900 text-gray-900 dark:text-white font-poppins transition-colors duration-300">
+  <nav class="fixed top-0 w-full bg-white/30 dark:bg-gray-800/30 backdrop-blur-md shadow-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-playfair font-bold text-pink-600 dark:text-pink-400">Aya Codes</h1>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-pink-500">Home</a></li>
+        <li><a href="about.html" class="hover:text-pink-500">About</a></li>
+        <li><a href="skills.html" class="hover:text-pink-500">Skills</a></li>
+        <li><a href="projects.html" class="text-pink-500 font-semibold">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-pink-500">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="text-2xl text-pink-600 dark:text-pink-400">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <section class="min-h-screen relative">
+    <div id="projects-particles" class="absolute inset-0 z-0"></div>
+    <div class="hearts-container absolute inset-0 z-10 pointer-events-none"></div>
+    <div class="relative z-20">
+      <h2 class="text-6xl font-playfair font-bold text-center text-pink-600 dark:text-pink-400 pt-20 mb-16" data-aos="fade-up">
+        My Projects
+      </h2>
+      <div class="fixed left-0 top-1/2 transform -translate-y-1/2 z-30 hidden md:block">
+        <div class="social-sidebar bg-plum-600/80 backdrop-blur-md rounded-r-lg p-4 flex flex-col space-y-4">
+          <a href="https://github.com" target="_blank" class="social-icon text-pink-400 hover:text-pink-500 transition-colors duration-300">
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon text-pink-400 hover:text-pink-500 transition-colors duration-300">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a href="https://instagram.com/yourusername" target="_blank" class="social-icon text-pink-400 hover:text-pink-500 transition-colors duration-300">
+            <i class="fab fa-instagram text-2xl"></i>
+          </a>
+          <a href="mailto:aya@example.com" class="social-icon text-pink-400 hover:text-pink-500 transition-colors duration-300">
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="parallax-section relative h-[80vh] flex items-center justify-center">
+        <div class="parallax-bg absolute inset-0 bg-gradient-to-b from-pink-500/50 to-purple-500/50 dark:from-pink-200/30 dark:to-purple-200/30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="project-card bg-white dark:bg-gray-800 p-10 rounded-lg shadow-xl max-w-2xl md:max-w-3xl mx-auto" data-aos="zoom-in">
+            <h3 class="text-4xl font-playfair font-bold text-pink-600 dark:text-pink-400 mb-4">Personal Portfolio Website</h3>
+            <p class="text-gray-700 dark:text-gray-200 mb-4 text-lg">A vibrant portfolio showcasing my journey as a coder and networking student, featuring a timeline, skills, and projects with a feminine aesthetic.</p>
+            <div class="tech-stack flex space-x-4 mb-4">
+              <span class="bg-pink-200 dark:bg-plum-600 text-pink-600 dark:text-pink-400 px-3 py-1 rounded-full text-sm">HTML</span>
+              <span class="bg-purple-200 dark:bg-plum-600 text-purple-600 dark:text-purple-400 px-3 py-1 rounded-full text-sm">CSS</span>
+              <span class="bg-gold-200 dark:bg-plum-600 text-gold-600 dark:text-gold-400 px-3 py-1 rounded-full text-sm">JavaScript</span>
+            </div>
+            <a href="#" class="view-project-button inline-block bg-pink-500 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-section relative h-[80vh] flex items-center justify-center">
+        <div class="parallax-bg absolute inset-0 bg-gradient-to-b from-purple-500/50 to-gold-500/50 dark:from-purple-200/30 dark:to-gold-200/30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="project-card bg-white dark:bg-gray-800 p-10 rounded-lg shadow-xl max-w-2xl md:max-w-3xl mx-auto" data-aos="zoom-in">
+            <h3 class="text-4xl font-playfair font-bold text-pink-600 dark:text-pink-400 mb-4">School Project Website</h3>
+            <p class="text-gray-700 dark:text-gray-200 mb-4 text-lg">A website built for a Grade 12 school project, demonstrating my ability to create responsive and interactive web designs.</p>
+            <div class="tech-stack flex space-x-4 mb-4">
+              <span class="bg-pink-200 dark:bg-plum-600 text-pink-600 dark:text-pink-400 px-3 py-1 rounded-full text-sm">HTML</span>
+              <span class="bg-purple-200 dark:bg-plum-600 text-purple-600 dark:text-purple-400 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+              <span class="bg-gold-200 dark:bg-plum-600 text-gold-600 dark:text-gold-400 px-3 py-1 rounded-full text-sm">JavaScript</span>
+            </div>
+            <a href="#" class="view-project-button inline-block bg-pink-500 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-section relative h-[80vh] flex items-center justify-center">
+        <div class="parallax-bg absolute inset-0 bg-gradient-to-b from-gold-500/50 to-pink-500/50 dark:from-gold-200/30 dark:to-pink-200/30 z-0"></div>
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="project-card bg-white dark:bg-gray-800 p-10 rounded-lg shadow-xl max-w-2xl md:max-w-3xl mx-auto" data-aos="zoom-in">
+            <h3 class="text-4xl font-playfair font-bold text-pink-600 dark:text-pink-400 mb-4">Networking Simulation</h3>
+            <p class="text-gray-700 dark:text-gray-200 mb-4 text-lg">A small simulation project to demonstrate basic networking concepts, created as part of my CCNA studies.</p>
+            <div class="tech-stack flex space-x-4 mb-4">
+              <span class="bg-pink-200 dark:bg-plum-600 text-pink-600 dark:text-pink-400 px-3 py-1 rounded-full text-sm">Python</span>
+              <span class="bg-purple-200 dark:bg-plum-600 text-purple-600 dark:text-purple-400 px-3 py-1 rounded-full text-sm">Networking</span>
+            </div>
+            <a href="#" class="view-project-button inline-block bg-pink-500 text-white px-6 py-2 rounded-full font-semibold transition-all duration-300">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-6 bg-gray-900 text-white text-center">
+    <p>© 2025 Aya Codes. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
