@@ -1,4 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // --- Mobile Menu Toggle Logic ---
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (menuToggle && mobileMenu) {
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      // Toggle between bars and times icon
+      const icon = menuToggle.querySelector('i');
+      if (mobileMenu.classList.contains('hidden')) {
+        icon.classList.remove('fa-times');
+        icon.classList.add('fa-bars');
+      } else {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-times');
+      }
+    });
+  }
+
   // --- Theme Toggle Logic (Click Handler) ---
   const themeToggle = document.getElementById('theme-toggle');
   const sunIcon = '<i class="fas fa-sun"></i>';
